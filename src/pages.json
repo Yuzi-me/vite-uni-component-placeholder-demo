@@ -1,0 +1,93 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/operate/index",
+			"style": {
+				"navigationBarTitleText": "经营"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "components",
+			"name": "components",
+			"pages": []
+		},
+		{
+			"root": "operate",
+			"name": "operate",
+			"pages": [
+				{
+					"path": "index/index",
+					"style": {
+						"disableScroll": true,
+						"backgroundColor": "#f6f7f8",
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "组件调用",
+						"navigationBarBackgroundColor": "#f6f7f8"
+					}
+				}
+			]
+		},
+		{
+			"root": "my",
+			"name": "my",
+			"pages": [
+				{
+					"path": "index/index",
+					"style": {
+						"navigationBarTitleText": "我的"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C0C0",
+		"selectedColor": "#000000",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/Home.png",
+				"selectedIconPath": "static/tabbar/Homes.png"
+			},
+			{
+				"pagePath": "pages/operate/index",
+				"text": "经营",
+				"iconPath": "static/tabbar/Operate.png",
+				"selectedIconPath": "static/tabbar/Operates.png"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "static/tabbar/My.png",
+				"selectedIconPath": "static/tabbar/Mys.png"
+			}
+		]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"subtitle": "@/components/subTitle/index"
+		}
+	}
+}
