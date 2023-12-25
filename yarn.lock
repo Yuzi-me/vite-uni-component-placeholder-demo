@@ -4139,9 +4139,9 @@ vary@~1.1.2:
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
 vite-uni-component-placeholder@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.npmjs.org/vite-uni-component-placeholder/-/vite-uni-component-placeholder-1.0.4.tgz#3b20cf92dcc813bd2b5247fb52d08619d0351876"
-  integrity sha512-V2X4H0Khbd5+fuFxzBJe3jc2tJrLnBiJhxKaF359YePXm/oJ53iCfb2LslGqqJcGYiEFJ7rbL67hiDuIKOPx/A==
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/vite-uni-component-placeholder/-/vite-uni-component-placeholder-1.0.5.tgz#09b30b59975ce342f6600d48883dd1aa87a9999b"
+  integrity sha512-MSSKjmGJod/Rpw1NWKvVP+ImJJ7w1aAsAMGBAmNx5YK88CdHaqEDxWWxvUQJqv4liPA1jdwh43E9e68Qf9xHkQ==
 
 vite@4.0.3:
   version "4.0.3"

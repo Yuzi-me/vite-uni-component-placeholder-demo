@@ -6,12 +6,12 @@
 
 <script>
 import buttons from '@/components/button/index'
+const componentPlaceholder = {
+  buttons: 'view'
+}
 export default {
   components: {
     buttons
-  },
-  componentPlaceholder: {
-    buttons: 'view'
   },
   data() {
     return {}
